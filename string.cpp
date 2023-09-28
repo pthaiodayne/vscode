@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;    
 int main() {
-    cout << setw(4) << 6 << endl 
+    cout << setw(3) << 6 << endl 
     << setw(3) << 18 << endl;
     return 0;
 }
