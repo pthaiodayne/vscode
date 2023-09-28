@@ -2,8 +2,8 @@
 #include <iomanip>
 using namespace std;    
 int main() {
-    cout << setw(3) << 6 << endl 
-    << setw(3) << 18 << endl;
+    cout << setw(6) << 6 << endl 
+    << setw(6) << 18 << endl << setw(6) <<12345;
     return 0;
 }
 
