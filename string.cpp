@@ -24,9 +24,9 @@ cout << "nhap ho va ten cua ban: ";
     getline(cin,s);
 	for (int i = 0; i < s.size(); i++) {
 		if (s[i] >= 'A' && s[i] <= 'Z') {
-			count++;
+			n++;
 		}
 	}
-	cout << count;
+	cout << n;
 return 0;
 } 
